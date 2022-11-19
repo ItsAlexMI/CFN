@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+{%block title%} register {%endblock%}
+{%block contenido%}
+
+     <form action="/register" method="post"> 
+        <input type="text" placeholder="Ingrese su nombre de usuario" name="usuario">
+        <input type="password" placeholder="Ingrese su contraseña" name="contraseña">
+        <input type="password" placeholder="Confirme su contraseña" name="confirmacion">
+        <a href="/login">Ya tienes una cuenta? Inicia sesion aqui</a>
+        <button type="submit">Enviar</button>
+    </form> 
+{%endblock%}

@@ -1,0 +1,19 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body.darkmode {
+    background-color: rgb(32, 32, 44);
+    color: white;
+}
+
+.gm-style-mtc {
+    display: none !important;
+}
+
+.row {
+    text-align: center;
+}

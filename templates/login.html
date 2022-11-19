@@ -1,0 +1,12 @@
+{%extends 'base.html'%}
+{%block title%} login {%endblock%}
+{%block contenido%}
+
+<form action="/login" method="post"> 
+    <input type="text" placeholder="Ingrese su nombre de usuario" name="usuario">
+    <input type="password" placeholder="Ingrese su contraseña" name="contraseña">
+    <a href="/register">Aun no tienes una cuenta? registrate aqui</a>
+    <button type="submit">Enviar</button>
+</form> 
+
+{%endblock%}
